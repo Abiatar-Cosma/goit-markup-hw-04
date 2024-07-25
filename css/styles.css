@@ -393,3 +393,11 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.footer-icons {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
