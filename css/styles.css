@@ -112,7 +112,18 @@ a {
   height: 4px;
   background-color: #404bbf;
   position: absolute;
-  bottom: -1px;
+  bottom: -2px;
+  bottom: -28px;
+}
+
+.header-link.active::after {
+  display: block; /* Arată bara doar pentru link-urile active */
+}
+.header-link:not(.active) {
+  color: #2e2f42;
+}
+.header-link:not(.active)::after {
+  display: none; /* Ascunde bara pentru link-urile care nu sunt active */
 }
 
 .address {
