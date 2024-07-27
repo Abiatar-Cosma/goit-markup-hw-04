@@ -112,8 +112,7 @@ a {
   height: 4px;
   background-color: #404bbf;
   position: absolute;
-  bottom: -2px;
-  bottom: -28px;
+  bottom: -1px;
 }
 
 .header-link.active::after {
@@ -392,7 +391,7 @@ a {
 
 .portfolio-element {
   width: calc((100% - 48px) / 3);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-element:hover {
